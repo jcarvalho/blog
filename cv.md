@@ -6,10 +6,37 @@ permalink: /cv/
 
 ## Experience
 
+### [OTO](https://www.oto.ai)
+
+#### Senior Software Engineer
+_March 2020 - November 2020_
+
+- Implemented a Python SDK (built on top of TensorFlow) for semantic audio processing (speech,
+  gender, emotions and energy detection)
+- Designed and implemented a reactive REST API for batch processing of audio files
+  and real-time streams
+- Designed and implemented a mechanism for online License Validation, secure Model
+  Distribution and usage tracking
+- Designed and implemented an IP Protection mechanism for local use of TensorFlow models
+- Managed Kubernetes cluster and related infrastructure
+- Improved automation for application and infrastructure deployment
+- Implemented end-to-end application metrics and logging pipeline using Datadog
+
+Primary technologies/providers:
+- Kotlin, Python
+- Spring (Core, WebFlux, Boot, Data), R2DBC, TensorFlow, NumPy
+- PostgreSQL, Amazon SQS, Amazon S3
+- AWS, Google Cloud
+- Docker, Kubernetes (Amazon EKS)
+- Datadog, Prometheus, Grafana
+- Terraform, Ansible
+- GitHub Actions, Travis CI
+
+
 ### [Talkdesk](https://talkdesk.com/)
 
 #### Senior Software Engineer / Tech Lead
-_May 2016 - Present_
+_May 2016 - March 2020_
 
 Core Platform:
 - Microservice development for Core APIs
@@ -29,7 +56,8 @@ SRE:
 - Bootstrapped the Engineering On-Call Program
 - Implemented a fully fledged Multi-Region Disaster Recovery solution
 - Maintained a legacy Rails-based monolith, including: migration from Rails 4 to
-  Rails 5, upgrade from Ruby 2.3 to 2.6, migration from Heroku to Kubernetes
+  Rails 5, upgrade from Ruby 2.3 to 2.6, migration from Heroku to Kubernetes, and isolation
+  of critical functionality
 - Assisted the design and implementation of our own Kubernetes-based PaaS, and
   the migration of multiple applications from Heroku to it
 - Rebuilt the Real Time Messaging infrastructure for the core platform, allowing
@@ -38,6 +66,7 @@ SRE:
   built using Terraform
 - Introduced multi-provider redundancy for all edge infrastructure (DNS and Load
 	Balancing)
+- Created blueprints for long-term scalability plans
 
 Primary technologies/providers/methodologies:
 - Kotlin, Ruby, Javascript
