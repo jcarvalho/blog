@@ -23,6 +23,7 @@ twitter_username: johnkarva
 github_username:  jcarvalho
 linkedin_username: joaopecarvalho
 header_pages:
+  - cv.md
   - talks.md
   - about.md
 
